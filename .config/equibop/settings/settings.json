@@ -71,12 +71,10 @@
             "anonymiseByDefault": true,
             "method": 1,
             "randomisedLength": 7,
-            "consistent": "image"
+            "consistent": "image",
+            "spoilerMessages": false
         },
         "AppleMusicRichPresence": {
-            "enabled": false
-        },
-        "WebRichPresence (arRPC)": {
             "enabled": false
         },
         "BANger": {
@@ -205,7 +203,7 @@
             "disableEmbedPermissionCheck": false
         },
         "FakeProfileThemes": {
-            "enabled": true,
+            "enabled": false,
             "nitroFirst": true
         },
         "FavoriteEmojiFirst": {
@@ -295,7 +293,8 @@
         "MemberCount": {
             "enabled": true,
             "memberList": true,
-            "toolTip": true
+            "toolTip": true,
+            "voiceActivity": true
         },
         "MentionAvatars": {
             "enabled": true,
@@ -490,9 +489,6 @@
         "SilentTyping": {
             "enabled": false
         },
-        "SortFriendRequests": {
-            "enabled": false
-        },
         "SpotifyControls": {
             "enabled": false
         },
@@ -527,8 +523,8 @@
             "service": "google",
             "receivedInput": "ja",
             "receivedOutput": "en",
-            "sentInput": "ja",
-            "sentOutput": "de",
+            "sentInput": "es",
+            "sentOutput": "ja",
             "showAutoTranslateTooltip": true
         },
         "TypingIndicator": {
@@ -850,9 +846,6 @@
         "InRole": {
             "enabled": false
         },
-        "JumpToStart": {
-            "enabled": true
-        },
         "Jumpscare": {
             "enabled": false,
             "imageSource": "https://github.com/Equicord/Equibored/blob/main/misc/troll.gif?raw=true",
@@ -1114,7 +1107,10 @@
         },
         "EquicordHelper": {
             "enabled": true,
-            "hideClanBadges": false
+            "hideClanBadges": false,
+            "disableCreateDMButton": false,
+            "disableDMContextMenu": false,
+            "noMirroredCamera": false
         },
         "SupportHelper": {
             "enabled": true
@@ -1143,10 +1139,6 @@
         },
         "IconViewer": {
             "enabled": true
-        },
-        "Remix": {
-            "enabled": false,
-            "remixTag": true
         },
         "SpotifyLyrics": {
             "enabled": false,
@@ -1425,20 +1417,71 @@
         },
         "TiktokTTS": {
             "enabled": false
+        },
+        "Animalese": {
+            "enabled": false
+        },
+        "ChatButtonsPlus": {
+            "enabled": false
+        },
+        "ShowMessageEmbeds": {
+            "enabled": true
+        },
+        "JumpTo": {
+            "enabled": true
+        },
+        "ToneIndicators": {
+            "enabled": false
+        },
+        "AudioPlayerAPI": {
+            "enabled": true
+        },
+        "SortFriends": {
+            "enabled": false
+        },
+        "WebRichPresence": {
+            "enabled": false
+        },
+        "RemixRevived": {
+            "enabled": false,
+            "remixTag": true
+        },
+        "ListenBrainzRPC": {
+            "enabled": false,
+            "shareUsername": false,
+            "shareSong": true,
+            "hideWithSpotify": true,
+            "hideWithActivity": false,
+            "useTimeBar": true,
+            "statusName": "some music",
+            "nameFormat": "status-name",
+            "useListeningStatus": true,
+            "missingArt": "listenbrainzLogo",
+            "useLogo": true
+        },
+        "VoiceButtons": {
+            "enabled": false,
+            "showChatButton": true,
+            "showMuteButton": true,
+            "showDeafenButton": true,
+            "showButtonsSelf": "display",
+            "whichNameToShow": "both"
         }
     },
     "notifications": {
         "timeout": 5000,
         "position": "bottom-right",
         "useNative": "not-focused",
-        "logLimit": 50
+        "logLimit": 50,
+        "missed": true
     },
     "cloud": {
         "authenticated": false,
         "url": "https://cloud.equicord.fyi/",
         "settingsSync": false,
-        "settingsSyncVersion": 1755963178946
+        "settingsSyncVersion": 1759196540947
     },
     "ignoreResetWarning": false,
-    "userCssVars": {}
+    "userCssVars": {},
+    "themeNames": {}
 }

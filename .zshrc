@@ -56,6 +56,7 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
+bindkey '\e[3~' delete-char
 
 # history
 HISTSIZE=5000
@@ -82,6 +83,9 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias config='/usr/bin/git --git-dir=/home/tsiri/dotfiles --work-tree=/home/tsiri'
+alias cat='bat -p'
+alias man='batman'
+alias archstatus='archstatus -l endeavouros'
 
 # shell integrations
 
